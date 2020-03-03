@@ -136,7 +136,7 @@ stages:
         arguments: '--no-build --configuration $(buildConfiguration)'
         publishTestResults: true
         projects: '$(System.DefaultWorkingDirectory)/**/*UITests.csproj'
-## comminting change
+## comminting change 2
 - stage: 'Staging'
   displayName: 'Deploy to the staging environment'
   dependsOn: Test
